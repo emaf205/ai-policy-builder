@@ -1,18 +1,14 @@
-# Final Quality Gate — V7
+# FINAL QUALITY GATE — V8
 
-**Esito locale: CORRECTED AND VALIDATED** (30 settembre 2026).
+**Verdetto:** CORRECTED AND VALIDATED (verifiche tecniche e di presentazione della V8).
 
-## Controlli eseguiti
+**Controlli eseguiti:**
 
-- Compilazione completa su viewport 1440×900, 390×844 e 360×780; nessun overflow orizzontale.
-- Campi obbligatori, barra di avanzamento, anteprima strutturale, rigenerazione e modifica documento.
-- Casi condizionali: dati interni, dati personali, contratti, personale/HR, campi non compilati.
-- Input contenenti markup resi come testo e non eseguiti.
-- Nessuna richiesta di rete durante la generazione della bozza nel test locale.
-- Esportazioni MD, TXT, HTML, EML e OOXML DOCX; integrità ZIP e parsing XML del DOCX.
-- Rendering del DOCX di prova e del PDF A4, con verifica della prima e dell’ultima pagina.
-- Nuovo layout dei pulsanti mobile corretto e ricontrollato.
+- Test browser Chromium su desktop 1440 px e smartphone 390/360 px; nessun errore JavaScript o overflow orizzontale.
+- Percorso completo da landing a policy; compilazione, navigazione 3 step, contenuto personalizzato e avvertenza «BOZZA NON APPROVATA».
+- Modifiche manuali mantenute nell'anteprima e nei download.
+- File DOCX verificato come archivio OOXML valido; download MD, TXT, HTML, EML controllati.
+- PDF A4 ottenuto dal browser: 4 pagine, con testo della policy e modifiche manuali presenti.
+- Copertina e screenshot ispezionati; immagine della hero incorporata nell'HTML e quindi disponibile offline.
 
-## Limiti del test
-
-La verifica locale non equivale a collaudo sul server di destinazione né a validazione legale della policy. Condivisione social e anteprima OG richiedono che il sito sia effettivamente online al percorso configurato.
+**Limite:** questo gate non equivale a una certificazione di conformità della singola policy aziendale o a una verifica di tutte le configurazioni possibili del browser. La verifica legale deve essere svolta caso per caso.

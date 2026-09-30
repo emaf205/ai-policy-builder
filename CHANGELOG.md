@@ -1,15 +1,14 @@
 # Changelog
 
-## V7 — Swiss Minimal
+## 8.0 — Product Edition · 30 settembre 2026
 
-- Nuova interfaccia ispirata alla direzione Swiss Minimal: hero editoriale, geometrie architettoniche, accento verde discreto.
-- Navigazione in pagina con tre passaggi e anteprima strutturale su desktop.
-- Layout e pulsanti finali rivisti per 360–390 px e desktop.
-- Conservate la logica condizionale della policy, le avvertenze e le esportazioni della V6.
-- Asset social dedicato e documentazione per la pubblicazione FTP.
+- Nuovo linguaggio grafico ispirato alla copertina: hero scura, mockup architettonico, editoriale e interfaccia neutra.
+- Copertina README dedicata, nuove screenshot reali desktop e smartphone, anteprima social.
+- Migliorati contrasto, CTA e comportamento mobile; mantenuto il supporto alle preferenze di riduzione del movimento.
+- Invariato il motore documentale della V7, inclusi i tre passaggi, le clausole condizionali e le esportazioni.
+- Aggiornata la documentazione di pubblicazione e il pacchetto FTP.
 
-## V6 — Professional Edition
+## 7.0 — Swiss Minimal
 
-- Percorso guidato in tre passaggi.
-- Documento personalizzato modificabile con più formati di esportazione.
-- Avvertenza «BOZZA NON APPROVATA» e checklist prima dell’adozione.
+- Tre passaggi, design responsive e documento modificabile.
+- Esportazioni Word, Markdown, TXT, HTML, EML e stampa A4.

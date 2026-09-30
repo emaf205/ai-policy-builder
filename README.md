@@ -1,70 +1,72 @@
 # AI Policy Builder
 
-![AI Policy Builder — Swiss Minimal](assets/preview-desktop.svg)
+![AI Policy Builder — Product Edition](assets/cover.jpg)
 
-**Policy AI. La tua bozza aziendale. In 3 passaggi.**
+**La tua policy AI. In pochi passaggi.**
 
-Una web app gratuita, in italiano, per preparare una prima bozza di policy interna sull’utilizzo dell’intelligenza artificiale. Progettata per professionisti, imprenditori e organizzazioni. Nessuna registrazione, API o database.
+Generatore gratuito di una prima bozza di policy interna sull'utilizzo dell'intelligenza artificiale. Progettato per professionisti, imprenditori e organizzazioni italiane.
 
-**[Policy Tools — altri strumenti gratuiti](https://emaf205.com/ideas/policy-tools/)** · **[Demo sul sito (dopo la pubblicazione)](https://emaf205.com/ideas/policy-tools/policy-builder/)**
+**3 passaggi · Senza registrazione · Elaborazione locale**
 
-## Anteprima grafica
+[**Policy Tools**](https://emaf205.com/ideas/policy-tools/) · [**Apri l'app**](https://emaf205.com/ideas/policy-tools/policy-builder/) *(quando pubblicata sul sito)*
+
+## Anteprima reale
 
 | Desktop | Smartphone |
 |---|---|
-| ![Vista desktop](assets/preview-desktop.svg) | ![Vista mobile](assets/preview-mobile.svg) |
+| ![Landing desktop](screenshots/landing-desktop.jpg) | ![Landing mobile](screenshots/landing-mobile.jpg) |
 
-*Le immagini sono rappresentazioni schematiche dell’interfaccia; per l’app reale apri `index.html`.*
+![Compilazione desktop](screenshots/form-desktop.jpg)
 
 ## Come funziona
 
-1. **Azienda** — ragione sociale, settore, dimensione.
-2. **Uso dell’AI** — strumenti, attività, dati e casi da approfondire.
-3. **Governance** — ruoli, responsabilità, verifiche e formazione.
+1. **Azienda:** ragione sociale, settore, numero di dipendenti.
+2. **Utilizzo dell'AI:** strumenti, attività, dati e casi da approfondire.
+3. **Governance:** ruoli, controlli, formazione e revisione.
 
-Il documento risultante propone regole operative, gestione dei dati, supervisione, segnalazioni, revisione e checklist prima dell’adozione. I campi mancanti restano **DA DEFINIRE**.
-
-L’interfaccia è essenziale, ma il documento è articolato: **14 sezioni operative, allegati e riferimenti istituzionali**.
+Il risultato è una **bozza strutturata, modificabile ed esportabile**, con indicazioni operative, responsabilità e punti ancora **DA DEFINIRE**. Non vengono inventate informazioni mancanti.
 
 ## Funzionalità
 
-- **Un file HTML**: può essere aperto localmente, senza installazione.
-- Layout mobile-first, avanzamento visibile, anteprima del documento su desktop.
-- Modifica del testo prima di esportare.
-- **Word (.docx), Markdown (.md), TXT, HTML, email (.eml)**.
-- **PDF A4** tramite la funzione di stampa del browser («Salva come PDF»).
-- Collegamenti per condividere *lo strumento*, non le risposte aziendali.
-- Nessuna chiamata API per elaborare il questionario; nessuna risposta inviata dall’app a un server.
+- Un unico file HTML: niente framework, backend, account o API necessarie.
+- Interfaccia responsive, navigazione guidata e animazioni rispettose di `prefers-reduced-motion`.
+- Documento articolato in 14 sezioni, checklist e riferimenti istituzionali.
+- Anteprima e modifica prima dell'esportazione.
+- **PDF A4** tramite stampa browser; **Word (.docx), Markdown (.md), TXT, HTML, email (.eml)** scaricabili.
+- Pulsanti social per condividere il link allo **strumento**, non i dati aziendali.
+- Il questionario viene elaborato nel browser; l'app non trasmette le risposte a un server.
 
-> **BOZZA NON APPROVATA.** L’app non certifica la conformità di un’organizzazione. Il testo deve essere controllato, integrato e approvato in base ai processi reali, ai contratti dei fornitori, alla normativa applicabile e alla documentazione privacy aziendale.
+> **BOZZA NON APPROVATA.** Lo strumento non svolge un audit legale né certifica la conformità dell'azienda. Il documento richiede verifica, integrazione e approvazione in base ai processi, ai contratti dei fornitori e alla normativa applicabile.
 
-## Utilizzo e pubblicazione
+## Avvio locale
 
-Per provare l’app: apri `index.html` in un browser moderno. Puoi anche caricarlo su un normale hosting statico.
+Scarica `index.html` e aprilo in un browser moderno. Non è necessario installare librerie o avviare un server. Le risposte non vengono salvate automaticamente: esporta il documento prima di chiudere.
 
-Per il sito Emanuele BDC: carica `index.html` nella cartella qui sotto e copia `assets/og.png` **nella stessa cartella con il nome `og.png`** (non nella sottocartella `assets`):
+## Pubblicazione FTP
+
+La versione pronta all'uso è nel pacchetto **V8-FTP**. Carica `index.html` e `og.jpg` in:
 
 ```text
 /ideas/policy-tools/policy-builder/
 ```
 
-Il link pubblico è già configurato nei metadati social e nei pulsanti di condivisione. **La condivisione del link funziona correttamente dopo la pubblicazione su quell’indirizzo**. L’app non effettua salvataggi automatici: esporta il documento prima di chiudere.
+La copertina GitHub (`assets/cover.jpg`) e le screenshot sono risorse della repository, non indispensabili per eseguire l'HTML. Il link di condivisione punta all'URL indicato sopra: diventa operativo dopo la pubblicazione.
 
-## Riferimenti
+## Fonti istituzionali
 
-I testi richiamano, tra le altre, le seguenti fonti istituzionali; è necessario verificare la versione vigente prima dell’adozione:
+I riferimenti sono punti di partenza, non una dichiarazione di conformità. Verifica le versioni vigenti e l'applicabilità al tuo caso:
 
-- [AI Act — Reg. (UE) 2024/1689, testo consolidato](https://eur-lex.europa.eu/eli/reg/2024/1689)
-- [GDPR — Reg. (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+- [AI Act — Regolamento (UE) 2024/1689, testo consolidato](https://eur-lex.europa.eu/eli/reg/2024/1689)
+- [GDPR — Regolamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
 - [Legge italiana 132/2025](https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg)
 - [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/)
 
 ## Autore
 
-**Emanuele BDC** — docente e consulente specializzato in AI generativa e applicazioni aziendali. [Entra in contatto su LinkedIn](https://www.linkedin.com/in/emanuelebdc).
+**Emanuele BDC** — docente e consulente specializzato in AI generativa e applicazioni aziendali. [LinkedIn](https://www.linkedin.com/in/emanuelebdc).
 
 *Made with ♥ in Milan by Emanuele BDC.*
 
 ### Codice e licenza
 
-La repository contiene il codice sorgente per consultazione. **Non è stata ancora scelta una licenza di riutilizzo**: l’assenza di un file `LICENSE` non concede automaticamente autorizzazioni a copiare, modificare o ridistribuire il codice. Per accordi d’uso, contatta l’autore.
+Il codice è pubblico per consultazione. **Non è stata scelta una licenza di riutilizzo**: l'assenza di `LICENSE` non concede automaticamente permessi di copia, modifica o ridistribuzione. Contatta l'autore per accordi d'uso.
