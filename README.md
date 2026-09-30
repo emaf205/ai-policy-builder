@@ -42,7 +42,7 @@ L’interfaccia è essenziale, ma il documento è articolato: **14 sezioni opera
 
 Per provare l’app: apri `index.html` in un browser moderno. Puoi anche caricarlo su un normale hosting statico.
 
-Per il sito Emanuele BDC: carica `index.html` e `assets/og.png` in:
+Per il sito Emanuele BDC: carica `index.html` nella cartella qui sotto e copia `assets/og.png` **nella stessa cartella con il nome `og.png`** (non nella sottocartella `assets`):
 
 ```text
 /ideas/policy-tools/policy-builder/
