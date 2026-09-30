@@ -8,6 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 HTML = (ROOT / 'index.html').read_text(encoding='utf8')
 APP_URL = 'https://emaf205.com/ideas/ai-policy-builder/'
 errors = []
+OUT = ROOT / 'screenshots'
+OUT.mkdir(exist_ok=True)
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True, executable_path='/usr/bin/chromium', args=['--no-sandbox'])
@@ -57,7 +59,7 @@ with sync_playwright() as p:
             for id_, ext in [('saveDocx', '.docx'), ('saveMd', '.md'), ('saveTxt', '.txt'), ('saveHtml', '.html'), ('saveEmail', '.eml')]:
                 with page.expect_download() as d:
                     page.locator('#' + id_).click()
-                out = ROOT / 'screenshots' / ('export-sample' + ext)
+                out = OUT / ('export-sample' + ext)
                 d.value.save_as(str(out))
                 assert out.stat().st_size > 100
                 if ext == '.docx':
@@ -69,8 +71,8 @@ with sync_playwright() as p:
                 if ext == '.md':
                     assert 'Controllo personalizzato' in out.read_text()
 
-            page.pdf(path=str(ROOT / 'screenshots' / 'print.pdf'), format='A4', print_background=True)
-            pdf = fitz.open(str(ROOT / 'screenshots' / 'print.pdf'))
+            page.pdf(path=str(OUT / 'print.pdf'), format='A4', print_background=True)
+            pdf = fitz.open(str(OUT / 'print.pdf'))
             text = '\n'.join(pg.get_text() for pg in pdf)
             assert 'BOZZA NON APPROVATA' in text
             assert 'Controllo personalizzato.' in text
