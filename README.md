@@ -1,6 +1,6 @@
 # AI Policy Builder
 
-![AI Policy Builder — Swiss Minimal](assets/og.png)
+![AI Policy Builder — Swiss Minimal](assets/preview-desktop.svg)
 
 **Policy AI. La tua bozza aziendale. In 3 passaggi.**
 
@@ -8,11 +8,13 @@ Una web app gratuita, in italiano, per preparare una prima bozza di policy inter
 
 **[Policy Tools — altri strumenti gratuiti](https://emaf205.com/ideas/policy-tools/)** · **[Demo sul sito (dopo la pubblicazione)](https://emaf205.com/ideas/policy-tools/policy-builder/)**
 
-## Anteprima
+## Anteprima grafica
 
 | Desktop | Smartphone |
 |---|---|
-| ![Desktop](screenshots/landing-desktop.png) | ![Smartphone](screenshots/landing-mobile.png) |
+| ![Vista desktop](assets/preview-desktop.svg) | ![Vista mobile](assets/preview-mobile.svg) |
+
+*Le immagini sono rappresentazioni schematiche dell’interfaccia; per l’app reale apri `index.html`.*
 
 ## Come funziona
 
