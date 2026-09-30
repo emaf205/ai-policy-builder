@@ -4,13 +4,25 @@
 
 **La tua policy AI. In pochi passaggi.**
 
-Generatore gratuito di una prima bozza di policy interna sull'utilizzo dell'intelligenza artificiale. Progettato per professionisti, imprenditori e organizzazioni italiane.
+Generatore gratuito di una prima bozza di policy interna sull'utilizzo dell'intelligenza artificiale, progettato per professionisti, imprenditori e organizzazioni italiane.
 
-**3 passaggi · Senza registrazione · Elaborazione locale**
+### ▶ [USA AI POLICY BUILDER ONLINE](https://emaf205.com/ideas/ai-policy-builder/)
 
-[**Policy Tools**](https://emaf205.com/ideas/policy-tools/) · [**Apri l'app**](https://emaf205.com/ideas/policy-tools/policy-builder/) *(quando pubblicata sul sito)*
+**3 passaggi · Nessuna registrazione · Elaborazione locale · Documento da validare**
 
-## Anteprima reale
+[Policy Tools](https://emaf205.com/ideas/policy-tools/) · [LinkedIn](https://www.linkedin.com/in/emanuelebdc)
+
+---
+
+## Cosa fa
+
+1. **Azienda** — raccoglie le informazioni essenziali sull'organizzazione.
+2. **Utilizzo dell'AI** — strumenti, attività, dati e casi d'uso da approfondire.
+3. **Governance** — ruoli, controlli, formazione e revisione.
+
+Il risultato è una **bozza strutturata, modificabile ed esportabile**. Le informazioni mancanti vengono indicate come **DA DEFINIRE**: l'app non inventa decisioni aziendali.
+
+## Anteprima
 
 | Desktop | Smartphone |
 |---|---|
@@ -18,55 +30,66 @@ Generatore gratuito di una prima bozza di policy interna sull'utilizzo dell'inte
 
 ![Compilazione desktop](screenshots/form-desktop.jpg)
 
-## Come funziona
+## Esempio di risultato
 
-1. **Azienda:** ragione sociale, settore, numero di dipendenti.
-2. **Utilizzo dell'AI:** strumenti, attività, dati e casi da approfondire.
-3. **Governance:** ruoli, controlli, formazione e revisione.
+La schermata finale permette di rivedere la policy, modificarla ed esportarla. Include inoltre condivisione dello strumento e contatto professionale.
 
-Il risultato è una **bozza strutturata, modificabile ed esportabile**, con indicazioni operative, responsabilità e punti ancora **DA DEFINIRE**. Non vengono inventate informazioni mancanti.
+![Risultato mobile](screenshots/result-mobile.jpg)
 
 ## Funzionalità
 
-- Un unico file HTML: niente framework, backend, account o API necessarie.
-- Interfaccia responsive, navigazione guidata e animazioni rispettose di `prefers-reduced-motion`.
-- Documento articolato in 14 sezioni, checklist e riferimenti istituzionali.
-- Anteprima e modifica prima dell'esportazione.
-- **PDF A4** tramite stampa browser; **Word (.docx), Markdown (.md), TXT, HTML, email (.eml)** scaricabili.
-- Pulsanti social per condividere il link allo **strumento**, non i dati aziendali.
-- Il questionario viene elaborato nel browser; l'app non trasmette le risposte a un server.
+- Un unico `index.html`: nessun framework, backend, account o API necessari.
+- Interfaccia responsive e percorso guidato in 3 passaggi.
+- Anteprima del risultato prima della compilazione.
+- Documento articolato in 14 sezioni con checklist finale.
+- Modifica del testo prima dell'esportazione.
+- **PDF A4** tramite stampa browser.
+- Download **Word (.docx), Markdown (.md), TXT, HTML ed email (.eml)**.
+- Pulsanti di condivisione riferiti allo **strumento**, non ai dati aziendali.
+- Le risposte vengono elaborate nel browser; l'app non le invia a un server.
+- Supporto a `prefers-reduced-motion`.
 
-> **BOZZA NON APPROVATA.** Lo strumento non svolge un audit legale né certifica la conformità dell'azienda. Il documento richiede verifica, integrazione e approvazione in base ai processi, ai contratti dei fornitori e alla normativa applicabile.
+> **BOZZA NON APPROVATA.** AI Policy Builder non svolge un audit legale e non certifica la conformità dell'organizzazione. Il documento deve essere verificato, integrato e approvato in base ai processi reali, ai fornitori utilizzati e agli obblighi applicabili.
 
-## Avvio locale
+## Usa l'app
 
-Scarica `index.html` e aprilo in un browser moderno. Non è necessario installare librerie o avviare un server. Le risposte non vengono salvate automaticamente: esporta il documento prima di chiudere.
+**URL ufficiale:**  
+https://emaf205.com/ideas/ai-policy-builder/
+
+Per uso locale, scarica `index.html` e aprilo in un browser moderno.
 
 ## Pubblicazione FTP
 
-La versione pronta all'uso è nel pacchetto **V8-FTP**. Carica `index.html` e `og.jpg` in:
+Carica `index.html` e `og.jpg` in:
 
 ```text
-/ideas/policy-tools/policy-builder/
+/ideas/ai-policy-builder/
 ```
 
-La copertina GitHub (`assets/cover.jpg`) e le screenshot sono risorse della repository, non indispensabili per eseguire l'HTML. Il link di condivisione punta all'URL indicato sopra: diventa operativo dopo la pubblicazione.
+Nel pacchetto FTP `og.jpg` è già posizionato accanto a `index.html`.
 
 ## Fonti istituzionali
 
-I riferimenti sono punti di partenza, non una dichiarazione di conformità. Verifica le versioni vigenti e l'applicabilità al tuo caso:
+I riferimenti integrati sono punti di partenza e non una dichiarazione automatica di conformità:
 
-- [AI Act — Regolamento (UE) 2024/1689, testo consolidato](https://eur-lex.europa.eu/eli/reg/2024/1689)
+- [AI Act — Regolamento (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689)
 - [GDPR — Regolamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
 - [Legge italiana 132/2025](https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg)
 - [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/)
 
 ## Autore
 
-**Emanuele BDC** — docente e consulente specializzato in AI generativa e applicazioni aziendali. [LinkedIn](https://www.linkedin.com/in/emanuelebdc).
+**Emanuele BDC**  
+Docente e consulente specializzato in AI generativa, formazione e applicazioni aziendali.
+
+[Entriamo in contatto su LinkedIn →](https://www.linkedin.com/in/emanuelebdc)
 
 *Made with ♥ in Milan by Emanuele BDC.*
 
-### Codice e licenza
+## Licenza
 
-Il codice è pubblico per consultazione. **Non è stata scelta una licenza di riutilizzo**: l'assenza di `LICENSE` non concede automaticamente permessi di copia, modifica o ridistribuzione. Contatta l'autore per accordi d'uso.
+Copyright © 2026 Emanuele Barboni Dalla Costa (Emanuele BDC). **All Rights Reserved.**
+
+Il codice e gli asset sono pubblici per consultazione, ma questa repository **non è open source**. Copia, modifica, redistribuzione, hosting o creazione di opere derivate richiedono autorizzazione scritta.
+
+Vedi [LICENSE](LICENSE).
