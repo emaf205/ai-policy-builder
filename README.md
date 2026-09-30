@@ -24,17 +24,13 @@ Il risultato è una **bozza strutturata, modificabile ed esportabile**. Le infor
 
 ## Anteprima
 
-| Desktop | Smartphone |
-|---|---|
-| ![Landing desktop](screenshots/landing-desktop.jpg) | ![Landing mobile](screenshots/landing-mobile.jpg) |
+La copertina mostra la direzione visiva del prodotto. Per vedere l'interfaccia aggiornata e il risultato completo usa la versione online.
 
-![Compilazione desktop](screenshots/form-desktop.jpg)
+### [Apri l'app →](https://emaf205.com/ideas/ai-policy-builder/)
 
 ## Esempio di risultato
 
-La schermata finale permette di rivedere la policy, modificarla ed esportarla. Include inoltre condivisione dello strumento e contatto professionale.
-
-![Risultato mobile](screenshots/result-mobile.jpg)
+La landing mostra un'anteprima delle sezioni prodotte. Al termine della compilazione puoi rivedere, modificare ed esportare la policy, quindi condividere lo strumento o contattare l'autore.
 
 ## Funzionalità
 
