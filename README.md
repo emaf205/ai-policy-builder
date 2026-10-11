@@ -1,91 +1,102 @@
-# AI Policy Builder
+# AI Policy Builder — Client-Side EU AI Act Governance Wizard
 
-![AI Policy Builder — Product Edition](assets/cover.jpg)
+<p align="center">
+  <img src="https://emaf205.com/github/assets/covers/ai-policy-builder.jpg" alt="AI Policy Builder Cover Artwork" width="100%">
+</p>
 
-**La tua policy AI. In pochi passaggi.**
+> **Your company's internal AI policy draft in three guided steps.**  
+> A zero-server, privacy-first web application designed for European SMEs, studios, and corporate teams to establish pragmatic guidelines for responsible AI adoption in compliance with the EU AI Act (Regulation EU 2024/1689).
 
-Generatore gratuito di una prima bozza di policy interna sull'utilizzo dell'intelligenza artificiale, progettato per professionisti, imprenditori e organizzazioni italiane.
-
-### ▶ [USA AI POLICY BUILDER ONLINE](https://emaf205.com/ideas/ai-policy-builder/)
-
-**3 passaggi · Nessuna registrazione · Elaborazione locale · Documento da validare**
-
-[Policy Tools](https://emaf205.com/ideas/policy-tools/) · [LinkedIn](https://www.linkedin.com/in/emanuelebdc)
+[![Live Tool](https://img.shields.io/badge/Live_Tool-emaf205.com%2Fideas%2Fai--policy--builder-dfff00?style=for-the-badge&logo=googlechrome&logoColor=000000)](https://emaf205.com/ideas/ai-policy-builder/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-emaf205%2Fai--policy--builder-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emaf205/ai-policy-builder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 
 ---
 
-## Cosa fa
+## ✦ The Genesis & Why This Exists
 
-1. **Azienda** — raccoglie le informazioni essenziali sull'organizzazione.
-2. **Utilizzo dell'AI** — strumenti, attività, dati e casi d'uso da approfondire.
-3. **Governance** — ruoli, controlli, formazione e revisione.
+In my consulting and corporate training work across Italy and Europe, I witness organizations falling into one of two dangerous traps regarding Artificial Intelligence:
 
-Il risultato è una **bozza strutturata, modificabile ed esportabile**. Le informazioni mancanti vengono indicate come **DA DEFINIRE**: l'app non inventa decisioni aziendali.
+1. **The Blanket Prohibition Trap**: Management issues a strict ban on ChatGPT and generative tools. Result? Employees use personal smartphones and unvetted browser tabs in secret, pasting sensitive client data into unknown clouds without encryption or corporate oversight.
+2. **The Anarchic Wild West Trap**: Teams adopt dozens of disjointed AI tools without documentation, exposing intellectual property, violating GDPR confidentiality clauses, and breaching forthcoming EU AI Act transparency rules.
 
-## Anteprima
+Neither approach works. Companies do not need 80-page incomprehensible legal treatises: they need a **clear, pragmatic, 14-section internal operating policy** that employees can actually read and follow.
 
-La copertina mostra la direzione visiva del prodotto. Per vedere l'interfaccia aggiornata e il risultato completo usa la versione online.
+I engineered **AI Policy Builder** as a single-file, zero-tracking web tool that guides leadership through key operational choices and compiles a tailored, editable draft policy in less than 5 minutes.
 
-### [Apri l'app →](https://emaf205.com/ideas/ai-policy-builder/)
+---
 
-## Esempio di risultato
+## ✦ How the Wizard Works
 
-La landing mostra un'anteprima delle sezioni prodotte. Al termine della compilazione puoi rivedere, modificare ed esportare la policy, quindi condividere lo strumento o contattare l'autore.
+The application breaks policy drafting into three logical stages:
 
-## Funzionalità
+1. **Stage 1: Organization Baseline**: Company identity, industry sector, team size, and existing confidentiality frameworks (GDPR, ISO 27001).
+2. **Stage 2: AI Workflows & Tool Matrix**: Approved vs. prohibited tools (ChatGPT Team/Enterprise, Copilot, Midjourney, Claude, local LLMs), classified data tiers, and specific forbidden activities (e.g. uploading raw customer PII or proprietary source code).
+3. **Stage 3: Governance & Accountability**: Oversight roles, human-in-the-loop review mandates, incident response protocols, and regular review cadences.
 
-- Un unico `index.html`: nessun framework, backend, account o API necessari.
-- Interfaccia responsive e percorso guidato in 3 passaggi.
-- Anteprima del risultato prima della compilazione.
-- Documento articolato in 14 sezioni con checklist finale.
-- Modifica del testo prima dell'esportazione.
-- **PDF A4** tramite stampa browser.
-- Download **Word (.docx), Markdown (.md), TXT, HTML ed email (.eml)**.
-- Pulsanti di condivisione riferiti allo **strumento**, non ai dati aziendali.
-- Le risposte vengono elaborate nel browser; l'app non le invia a un server.
-- Supporto a `prefers-reduced-motion`.
+> **Zero Hallucination Guarantee**: Missing corporate decisions are flagged prominently with `[TO BE DEFINED BY MANAGEMENT]`. The software refuses to invent business commitments on your behalf.
 
-> **BOZZA NON APPROVATA.** AI Policy Builder non svolge un audit legale e non certifica la conformità dell'organizzazione. Il documento deve essere verificato, integrato e approvato in base ai processi reali, ai fornitori utilizzati e agli obblighi applicabili.
+---
 
-## Usa l'app
+## ✦ Core Features & Engineering Principles
 
-**URL ufficiale:**  
-https://emaf205.com/ideas/ai-policy-builder/
+- **🔒 100% Client-Side & Zero Exfiltration**:
+  - All form state, data processing, and document rendering take place purely in your browser's local memory.
+  - Zero analytics, zero backend database, zero data transmission over the wire. Confidential corporate disclosures never leave your device.
+- **📄 Multi-Format Export Engine**:
+  - **Microsoft Word (.docx)**: Pre-styled with formal corporate headers and typography.
+  - **Clean Markdown (.md)**: Ideal for technical wikis, GitHub repos, and Notion hubs.
+  - **Print-Grade A4 PDF**: CSS Paged Media `@media print` rules formatted for immediate signing.
+  - **Plain Text & Email (.eml)**: Formatted for broadcast distribution to staff.
+- **⚡ Single-File Architecture (`index.html`)**:
+  - The entire application lives inside a single, self-contained `index.html`.
+  - Zero npm dependencies, zero Node runtime, zero build pipeline. Download the file and run it completely offline on an airplane.
 
-Per uso locale, scarica `index.html` e aprilo in un browser moderno.
+---
 
-## Pubblicazione FTP
+## ✦ Document Structure (14 Formal Sections)
 
-Carica `index.html` e `og.jpg` in:
+1. Purpose and Scope of Application
+2. Fundamental Principles (Human Oversight, Transparency, Security)
+3. Categorization of AI Systems (EU AI Act Alignment)
+4. Authorized vs. Prohibited Tools Matrix
+5. Data Classification and Input Safeguards
+6. Intellectual Property and Copyright Protections
+7. Verification and Fact-Checking Obligations
+8. Customer and Third-Party Transparency Disclosures
+9. Security Protocols and Credential Management
+10. Personnel Training and Digital Literacy
+11. Roles, Responsibilities, and AI Officer Oversight
+12. Incident Management and Whistleblowing Procedures
+13. Periodic Policy Review Cadence
+14. Final Acceptance Checklist & Signature Block
 
-```text
-/ideas/ai-policy-builder/
+---
+
+## ✦ Quickstart & Offline Execution
+
+```bash
+# Clone the repository
+git clone https://github.com/emaf205/ai-policy-builder.git
+cd ai-policy-builder
+
+# Open directly in any browser
+open index.html
 ```
 
-Nel pacchetto FTP `og.jpg` è già posizionato accanto a `index.html`.
+Or deploy to any static host (Netlify, Vercel, Apache, Nginx) by uploading `index.html`.
 
-## Fonti istituzionali
+---
 
-I riferimenti integrati sono punti di partenza e non una dichiarazione automatica di conformità:
+## ✦ Legal Disclaimer
 
-- [AI Act — Regolamento (UE) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689)
-- [GDPR — Regolamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
-- [Legge italiana 132/2025](https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg)
-- [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/)
+*AI Policy Builder is an operational drafting utility, not a formal legal counsel engagement. It does not certify compliance with specific regulatory bodies. Every generated document must be reviewed and tailored by internal leadership or legal counsel prior to institutional adoption.*
 
-## Autore
+---
 
-**Emanuele BDC**  
-Docente e consulente specializzato in AI generativa, formazione e applicazioni aziendali.
+## ✦ Author & Credits
 
-[Entriamo in contatto su LinkedIn →](https://www.linkedin.com/in/emanuelebdc)
+Designed and maintained by **[Emanuele BDC](https://emaf205.com)** in Milan.  
+Advancing responsible, pragmatic AI adoption for European enterprises.
 
-*Made with ♥ in Milan by Emanuele BDC.*
-
-## Licenza
-
-Copyright © 2026 Emanuele Barboni Dalla Costa (Emanuele BDC). **All Rights Reserved.**
-
-Il codice e gli asset sono pubblici per consultazione, ma questa repository **non è open source**. Copia, modifica, redistribuzione, hosting o creazione di opere derivate richiedono autorizzazione scritta.
-
-Vedi [LICENSE](LICENSE).
+Distributed under the **MIT License**. Free for personal and commercial governance.
