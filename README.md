@@ -1,7 +1,7 @@
 # AI Policy Builder — Client-Side EU AI Act Governance Wizard
 
 <p align="center">
-  <img src="https://emaf205.com/github/assets/covers/ai-policy-builder.jpg" alt="AI Policy Builder Cover Artwork" width="100%">
+  <img src="assets/social-preview.jpg" alt="AI Policy Builder Cover Artwork" width="100%">
 </p>
 
 > **Your company's internal AI policy draft in three guided steps.**  
